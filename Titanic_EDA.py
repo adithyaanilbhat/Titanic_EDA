@@ -43,9 +43,10 @@ plt.title("Correlation matrix")
 plt.show()
 
 # 5. Observations & Insights
-print(\"\"\"
+print("""
 1. Age and Fare variables are right-skewed.
 2. There are several outliers in Fare and Age, as seen from boxplots.
 3. Pairplot and correlation matrix show weak positive correlation between Fare and Survived.
 4. Pclass is negatively correlated with Survived.
-\"\"\")
+
+""")
